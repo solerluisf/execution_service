@@ -1,0 +1,6 @@
+default_time_in_force = "day"
+allow_extended_hours = false
+max_order_retries = 3
+retry_backoff_ms = 1000
+order_staleness_ms = 30000
+idempotency_window_ms = 60000
